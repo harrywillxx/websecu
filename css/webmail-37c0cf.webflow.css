@@ -1,0 +1,75 @@
+.section {
+  width: 100%;
+  height: 100vh;
+}
+
+.div-block {
+  background-color: #ff6c2c;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  padding-left: 45px;
+  display: flex;
+}
+
+.image {
+  max-width: none;
+  height: 38%;
+}
+
+.div-block-2 {
+  text-align: center;
+  width: 100%;
+  height: 86vh;
+  padding-top: 33px;
+  padding-left: 0;
+}
+
+.heading {
+  font-size: 23px;
+  line-height: 1;
+}
+
+.lottie-animation {
+  height: 20%;
+  margin-top: 27px;
+  margin-bottom: 12px;
+}
+
+.button {
+  background-color: #179bd7;
+  border: 1px solid #0e678f;
+  border-radius: 5px;
+  font-family: Exo, sans-serif;
+}
+
+.paragraph {
+  margin-bottom: 17px;
+  padding-left: 63px;
+  padding-right: 63px;
+  font-family: Exo, sans-serif;
+  font-weight: 500;
+  line-height: 1.9;
+}
+
+@media screen and (max-width: 991px) {
+  .paragraph {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .paragraph {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
